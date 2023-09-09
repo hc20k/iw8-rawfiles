@@ -1,0 +1,2 @@
+chance,ammo,7,#Ammo should be spawned dependent on weapons that pop out of cache or at random,
+chance,health,20,

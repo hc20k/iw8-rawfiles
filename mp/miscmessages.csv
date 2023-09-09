@@ -1,0 +1,5 @@
+scavenger,MISC_MESSAGES_MP/SCAVENGER,hud_feedback_scavenger,scavenger_pack_pickup,1,
+scavenger_eqp,MISC_MESSAGES_MP/SCAVENGER_EQUIPMENT,scavenger_pickup_eqp,scavenger_pack_pickup,1,
+spotted,MISC_MESSAGES_MP/SPOTTED,icon_ks_skylark_uav_hud,oracle_radar_pulse_plr,1,
+throwingknife,MISC_MESSAGES_MP/THROWING_KNIFE,hud_icon_equipment_throwing_knife,scavenger_pack_pickup,1,
+alerted,MISC_MESSAGES_MP/ALERTED,icon_ks_sat_com_hud,

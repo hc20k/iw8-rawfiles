@@ -1,0 +1,2 @@
+﻿alias,min_height,max_height,min_drop_height,max_drop_height,min_speed,max_speed,min_arrival_yaw,max_arrival_yaw,min_length,max_length,__END__,
+walk_jump_across,0,40,0,50,0,85,-75,75,0,65,

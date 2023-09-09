@@ -1,0 +1,7 @@
+0,gate,MP_SHIPMENT/GATE,area,
+1,van,MP_SHIPMENT/VAN,area,
+2,center,MP_SHIPMENT/CENTER,area,
+3,container_wall,MP_SHIPMENT/CONTAINER_WALL,area,
+4,crash_cockpit,MP_SHIPMENT/CRASH_COCKPIT,area,
+5,server,MP_SHIPMENT/SERVER,area,
+6,crops,MP_SHIPMENT/CROPS,area,

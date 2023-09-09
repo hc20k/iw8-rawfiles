@@ -1,2 +1,4 @@
 # iw8-rawfiles
-Dumped raw files from IW8.
+
+Just a collection of rawfiles from IW8. (WIP)
+Dumped using DB_EnumXAssets.
