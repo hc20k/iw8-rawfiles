@@ -15,4 +15,5 @@
 14,LeftAction,MENU/TURN_LEFT,+left,Y,Y,Y,
 15,RightAction,MENU/TURN_RIGHT,+right,Y,Y,Y,
 16,StrafeAction,MENU/STRAFE,+strafe,Y,Y,Y,
-17,RollLeftAction,MENU/ROLL_LEFT,+rollleft,Y,
+17,RollLeftAction,MENU/ROLL_LEFT,+rollleft,Y,,,
+18,RollRightAction,MENU/ROLL_RIGHT,+rollright,Y,,,
