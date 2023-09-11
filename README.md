@@ -4,6 +4,8 @@ Just a collection of rawfiles from IW8. (WIP). Feel free to contribute.
 
 * ☑️ stringtables
 * ☑️ scriptfiles
+* ☑️ localize (thx @anon867)
+* ☑️ rawfiles
 
 ### Notes:
 * Scriptfiles are included, but not decompiled due to selective decompilation issues with gsc-tool.
