@@ -1,0 +1,54 @@
+%force_cs_anim_index_match
+
+reverse: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="100",
+	coords="{-135,131},{-135,35},{-135,0},{135,131},{135,35},{135,0},{45,188},{45,35},{45,0},{-45,188},{-45,35},{-45,0},{-90,150},{-90,35},{-90,0},{90,150},{90,35},{90,0},{180,131},{180,35},{180,0},{0,188},{0,35},{0,0},{-180,131},{-180,35},{-180,0},{-180,255},{-135,255},{-90,255},{-45,255},{0,255},{45,255},{90,255},{135,255},{180,255}",
+	edges="{25,26,2},{25,2,1},{1,2,14},{1,14,13},{13,14,11},{13,11,10},{10,11,23},{10,23,22},{22,23,7},{23,7,8},{7,8,16},{8,16,17},{16,17,4},{17,4,5},{4,5,19},{19,5,20},{24,25,1},{24,1,0},{0,1,13},{0,13,12},{12,13,10},{12,10,9},{9,21,22},{21,22,6},{22,6,7},{6,7,15},{7,15,16},{15,16,3},{16,3,4},{3,4,18},{18,4,19},{9,10,22},{0,24,27},{0,27,28},{0,12,28},{12,28,29},{9,12,29},{9,29,30},{9,21,30},{21,30,31},{21,31,32},{6,21,32},{6,32,33},{6,15,33},{15,33,34},{3,15,34},{3,34,35},{3,18,35}",
+	valuex=[strafeyaw], valuey=[desiredspeed] ) nonloopsync
+	{
+		//3
+		sdr_cqb_strafe_trans_fast7_fast3
+		sdr_cqb_strafe_trans_walk7_walk3
+		sdr_cqb_strafe_trans_shuffle7_shuffle3
+		//1
+		sdr_cqb_strafe_trans_fast9_fast1
+		sdr_cqb_strafe_trans_walk9_walk1
+		sdr_cqb_strafe_trans_shuffle9_shuffle1
+		//7
+		sdr_cqb_strafe_trans_fast3_fast7
+		sdr_cqb_strafe_trans_walk3_walk7
+		sdr_cqb_strafe_trans_shuffle3_shuffle7
+		//9
+		sdr_cqb_strafe_trans_fast1_fast9
+		sdr_cqb_strafe_trans_walk1_walk9
+		sdr_cqb_strafe_trans_shuffle1_shuffle9
+		//6
+		sdr_cqb_strafe_trans_fast4_fast6
+		sdr_cqb_strafe_trans_walk4_walk6
+		sdr_cqb_strafe_trans_shuffle4_shuffle6
+		//4
+		sdr_cqb_strafe_trans_fast6_fast4
+		sdr_cqb_strafe_trans_walk6_walk4
+		sdr_cqb_strafe_trans_shuffle6_shuffle4
+		//2
+		sdr_cqb_strafe_trans_fast8_fast2
+		sdr_cqb_strafe_trans_walk8_walk2
+		sdr_cqb_strafe_trans_shuffle8_shuffle2
+		//8
+		sdr_cqb_strafe_trans_fast2_fast8
+		sdr_cqb_strafe_trans_walk2_walk8
+		sdr_cqb_strafe_trans_shuffle2_shuffle8
+		//2b
+		sdr_cqb_strafe_trans_fast8_fast2@1
+		sdr_cqb_strafe_trans_walk8_walk2@1
+		sdr_cqb_strafe_trans_shuffle8_shuffle2@1
+		
+		sdr_cqb_strafe_trans_fast8_fast2@2
+		sdr_cqb_strafe_trans_fast7_fast3@1
+		sdr_cqb_strafe_trans_fast4_fast6@1
+		sdr_cqb_strafe_trans_fast1_fast9@1
+		sdr_cqb_strafe_trans_fast2_fast8@1
+		sdr_cqb_strafe_trans_fast3_fast7@1
+		sdr_cqb_strafe_trans_fast6_fast4@1
+		sdr_cqb_strafe_trans_fast9_fast1@1
+		sdr_cqb_strafe_trans_fast8_fast2@3
+	}

@@ -1,0 +1,51 @@
+%force_cs_anim_index_match
+
+juggernaut_strafe : toggle( index=[strafe_forward_index], blendtime="0.1", restart="false" ) loopsync
+{
+	juggernaut_strafe_forward: blendspace2d( rangex="-180,180", rangey="40,113", blend_time="0", disable_update_while_turning_off="true",
+	coords="{-135,40},{-90,40},{-45,40},{0,40},{45,40},{90,40},{135,40},{-135,113},{-90,113},{-45,113},{0,113},{45,113},{90,113},{135,113}",
+	edges="{0,1,7},{1,2,8},{2,3,9},{3,4,10},{4,5,11},{5,6,12},{6,12,13},{5,11,12},{4,10,11},{3,9,10},{2,8,9},{1,7,8}",
+	valuex=[strafeyaw], valuey=[desiredspeed] ) complete
+	{
+		jug_com_strafe_walk_3
+		jug_com_strafe_walk_6
+		jug_com_strafe_walk_9
+		jug_com_strafe_walk_8
+		jug_com_strafe_walk_7
+		jug_com_strafe_walk_4
+		jug_com_strafe_walk_1
+		
+		jug_com_strafe_jog_3
+		jug_com_strafe_jog_6
+		jug_com_strafe_jog_9
+		jug_com_strafe_jog_8
+		jug_com_strafe_jog_7
+		jug_com_strafe_jog_4
+		jug_com_strafe_jog_1
+	}
+	
+	juggernaut_strafe_backward: blendspace2d( rangex="-180,180", rangey="40,113", blend_time="0", disable_update_while_turning_off="true",
+	coords="{-135,40},{-90,40},{-45,40},{-180,40},{45,40},{90,40},{135,40},{-135,113},{-90,113},{-45,113},{-180,113},{45,113},{90,113},{135,113},{180,113},{180,40}",
+	edges="{0,1,7},{1,2,8},{4,5,11},{5,6,12},{6,12,13},{5,11,12},{2,8,9},{1,7,8},{2,4,9},{4,9,11},{0,3,10},{0,7,10},{6,13,15},{13,14,15}",
+	valuex=[strafeyaw], valuey=[desiredspeed] ) complete
+	{
+		jug_com_strafe_walk_3bckwrd
+		jug_com_strafe_walk_6bckwrd
+		jug_com_strafe_walk_9bckwrd
+		jug_com_strafe_walk_2bckwrd
+		jug_com_strafe_walk_7bckwrd
+		jug_com_strafe_walk_4bckwrd
+		jug_com_strafe_walk_1bckwrd
+		
+		jug_com_strafe_jog_3bckwrd
+		jug_com_strafe_jog_6bckwrd
+		jug_com_strafe_jog_9bckwrd
+		jug_com_strafe_jog_2bckwrd
+		jug_com_strafe_jog_7bckwrd
+		jug_com_strafe_jog_4bckwrd
+		jug_com_strafe_jog_1bckwrd
+		jug_com_strafe_jog_2bckwrd@1
+		jug_com_strafe_walk_2bckwrd@1
+	}
+}
+

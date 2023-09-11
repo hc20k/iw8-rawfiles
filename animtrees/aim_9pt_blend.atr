@@ -1,0 +1,16 @@
+%force_cs_anim_index_match
+
+	aimnode : aim_9pt( aim_active=[aim_active], aim_yaw=[aim_yaw], aim_pitch=[aim_pitch], aim_state=[aim_state], degrees="-180,-135,-90,-45,0,45,90,135,180",
+	max_angles="80,91.787,45,91.787,80,91.787,45,91.787,80", aim_anims="4,7,6,5,3,0,1,2,4",
+ 	animclass=[animclass], animstate=[animstate], animentry=[animentry] ) fullrestart
+	{
+		#aim_1
+		#aim_2
+		#aim_3
+		#aim_4
+		#aim_6
+		#aim_7
+		#aim_8
+		#aim_9
+	}
+

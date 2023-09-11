@@ -1,0 +1,17 @@
+%force_cs_anim_index_match
+
+stairs_up_loop : blendspace2d( rangex="-90,90", rangey="0,170", blend_time="100",
+	coords="{0,40},{0,113},{0,170},{-90,40},{90,40},{-90,113},{90,113},{-90,170},{90,170}",
+	edges="{0,3,5},{0,1,5},{0,1,4},{1,4,6},{1,5,7},{1,2,7},{1,2,6},{2,6,8}",
+	valuex=[leanyaw], valuey=[desiredspeed] ) loopsync complete
+{
+	jug_cqb_stairs_walk_forward_up
+	jug_com_stairs_jog_forward_up
+	jug_com_stairs_run_forward_up
+	jug_cqb_stairs_walk_forward_up_l
+	jug_cqb_stairs_walk_forward_up_r	
+	jug_com_stairs_jog_forward_up_l
+	jug_com_stairs_jog_forward_up_r	
+	jug_com_stairs_run_forward_up_l
+	jug_com_stairs_run_forward_up_r
+}

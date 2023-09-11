@@ -1,0 +1,60 @@
+%force_cs_anim_index_match
+
+aimnode : aim_9pt( aim_active=[aim_active], aim_yaw=[aim_yaw], aim_pitch=[aim_pitch], aim_state=[aim_state], degrees="-180,-135,-90,-45,0,45,90,135,180",
+	max_angles="80,91.787,45,91.787,80,91.787,45,91.787,80", aim_anims="4,7,6,5,3,0,1,2,4", animclass=[animclass], animstate=[animstate], animentry=[animentry] ) fullrestart unnormalized
+{
+	sdr_com_exposed_aim_1
+	sdr_com_exposed_aim_2
+	sdr_com_exposed_aim_3
+	sdr_com_exposed_aim_4
+	sdr_com_exposed_aim_6
+	sdr_com_exposed_aim_7
+	sdr_com_exposed_aim_8
+	sdr_com_exposed_aim_9
+	
+	sdr_cqb_fast_aim_1
+	sdr_cqb_fast_aim_2
+	sdr_cqb_fast_aim_3
+	sdr_cqb_fast_aim_4
+	sdr_cqb_fast_aim_6
+	sdr_cqb_fast_aim_7
+	sdr_cqb_fast_aim_8
+	sdr_cqb_fast_aim_9
+	
+	sdr_cqb_pstl_fast_aim_1
+	sdr_cqb_pstl_fast_aim_2
+	sdr_cqb_pstl_fast_aim_3
+	sdr_cqb_pstl_fast_aim_4
+	sdr_cqb_pstl_fast_aim_6
+	sdr_cqb_pstl_fast_aim_7
+	sdr_cqb_pstl_fast_aim_8
+	sdr_cqb_pstl_fast_aim_9
+	
+	jug_com_exposed_aim_1
+	jug_com_exposed_aim_2
+	jug_com_exposed_aim_3
+	jug_com_exposed_aim_4
+	jug_com_exposed_aim_6
+	jug_com_exposed_aim_7
+	jug_com_exposed_aim_8
+	jug_com_exposed_aim_9
+	
+	jug_com_walk_aim_1
+	jug_com_walk_aim_2
+	jug_com_walk_aim_3
+	jug_com_walk_aim_4
+	jug_com_walk_aim_6
+	jug_com_walk_aim_7
+	jug_com_walk_aim_8
+	jug_com_walk_aim_9
+	
+	sdr_com_exposed_lmg_aim_1
+	sdr_com_exposed_lmg_aim_2
+	sdr_com_exposed_lmg_aim_3
+	sdr_com_exposed_lmg_aim_4
+	sdr_com_exposed_lmg_aim_6
+	sdr_com_exposed_lmg_aim_7
+	sdr_com_exposed_lmg_aim_8
+	sdr_com_exposed_lmg_aim_9
+}
+	

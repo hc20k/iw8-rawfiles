@@ -1,0 +1,32 @@
+%force_cs_anim_index_match
+
+move_loop : loopsync blendspace2d( rangex="-90,90", rangey="23,250", blend_time="100",
+	coords="{-90,23},{-90,56},{-90,120},{-90,150},{-90,195},{0,23},{0,56},{0,120},{0,170},{0,220},{0,250},{90,23},{90,56},{90,120},{90,155},{90,195}",
+	edges="{0,5,6},{0,1,6},{5,6,11},{6,11,12},{1,6,7},{1,2,7},{6,7,12},{7,12,13},{2,7,8},{2,3,8},{7,8,13},{8,13,14},{8,9,14},{3,8,9},{9,14,15},{3,4,9},{4,9,10},{9,10,15}",
+	valuex=[leanyaw],valuey=[desiredspeed] )
+{
+	sdr_cqb_lean_r_shuffle
+	sdr_cqb_lean_r_walk
+//	sdr_cqb_lean_r_walk_add
+	sdr_cqb_lean_r_fast
+//	sdr_cqb_lean_r_fast_add
+	sdr_com_lean_r_jog
+	sdr_com_lean_r_run
+	
+	sdr_cqb_strafe_shuffle_8	// 23
+	sdr_cqb_strafe_walk_8	// 56
+	sdr_cqb_strafe_fast_8	// 120
+	sdr_com_jog_loop01		// 170
+	sdr_com_run_loop01		// 220
+	sdr_com_sprint_loop01	// 250
+	
+	sdr_cqb_lean_l_shuffle
+	sdr_cqb_lean_l_walk
+//	sdr_cqb_lean_l_walk_add
+	sdr_cqb_lean_l_fast
+//	sdr_cqb_lean_l_fast_add
+	sdr_com_lean_l_jog
+	sdr_com_lean_l_run
+	
+}
+

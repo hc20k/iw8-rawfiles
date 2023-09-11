@@ -1,0 +1,61 @@
+// force anim indexes to match between server and client in MP/CP. Only remove leaf nodes when the xanim asset is not present in the current level. Keep all anim blend/custom nodes even if they are e
+%force_cs_anim_index_match
+
+lookatpos_animscripted : complete unnormalized
+{
+	// default animscripted headlook
+	lookatpos_animscripted_default : complete blendspace2d( rangex="-135,135", rangey="-90,90", blend_time="60",
+	coords="{-135,-56},{-135,0},{-135,56},{0,-90},{0,0},{0,90},{135,-51},{135,0},{135,56},{-135,-90},{-135,90},{135,90},{135,-90},{-90,-90},{-90,0},{-90,90},{90,-90},{90,0},{90,90}",
+	edges="{0,9,13},{1,2,14},{4,14,15},{4,5,15},{3,13,14},{3,4,14},{4,5,17},{5,17,18},{3,4,16},{4,16,17},{2,14,15},{2,10,15},{6,16,17},{6,7,17},{8,11,18},{8,17,18},{7,8,17},{6,12,16},{0,13,14},{0,1,14}",
+	valuex=[lookatyaw], valuey=[lookatpitch] ) 
+	{
+		sdr_com_animscripted_head_look_01
+		sdr_com_animscripted_head_look_03
+		sdr_com_animscripted_head_look_05
+		sdr_com_animscripted_head_look_16
+		sdr_com_animscripted_head_look_18
+		sdr_com_animscripted_head_look_20
+		sdr_com_animscripted_head_look_31
+		sdr_com_animscripted_head_look_33
+		sdr_com_animscripted_head_look_35
+		sdr_com_animscripted_head_look_01@1
+		sdr_com_animscripted_head_look_05@1
+		sdr_com_animscripted_head_look_35@1
+		sdr_com_animscripted_head_look_31@1
+		sdr_com_animscripted_head_look_08
+		sdr_com_animscripted_head_look_10
+		sdr_com_animscripted_head_look_12
+		sdr_com_animscripted_head_look_24
+		sdr_com_animscripted_head_look_26
+		sdr_com_animscripted_head_look_28
+	}
+	
+	// animscripted headlook with 'eye tracking'
+	lookatpos_animscripted_default_eyes : complete blendspace2d( rangex="-135,135", rangey="-90,90", blend_time="60",
+	coords="{-135,-56},{-135,0},{-135,56},{0,-90},{0,0},{0,90},{135,-51},{135,0},{135,56},{-135,-90},{-135,90},{135,90},{135,-90},{-90,-90},{-90,0},{-90,90},{90,-90},{90,0},{90,90}",
+	edges="{0,9,13},{1,2,14},{4,14,15},{4,5,15},{3,13,14},{3,4,14},{4,5,17},{5,17,18},{3,4,16},{4,16,17},{2,14,15},{2,10,15},{6,16,17},{6,7,17},{8,11,18},{8,17,18},{7,8,17},{6,12,16},{0,13,14},{0,1,14}",
+	valuex=[lookatyaw], valuey=[lookatpitch] ) 
+	{
+		sdr_com_animscripted_head_look_eyes_01
+		sdr_com_animscripted_head_look_eyes_03
+		sdr_com_animscripted_head_look_eyes_05
+		sdr_com_animscripted_head_look_eyes_16
+		sdr_com_animscripted_head_look_eyes_18
+		sdr_com_animscripted_head_look_eyes_20
+		sdr_com_animscripted_head_look_eyes_31
+		sdr_com_animscripted_head_look_eyes_33
+		sdr_com_animscripted_head_look_eyes_35
+		sdr_com_animscripted_head_look_eyes_01@1
+		sdr_com_animscripted_head_look_eyes_05@1
+		sdr_com_animscripted_head_look_eyes_35@1
+		sdr_com_animscripted_head_look_eyes_31@1
+		sdr_com_animscripted_head_look_eyes_08
+		sdr_com_animscripted_head_look_eyes_10
+		sdr_com_animscripted_head_look_eyes_12
+		sdr_com_animscripted_head_look_eyes_24
+		sdr_com_animscripted_head_look_eyes_26
+		sdr_com_animscripted_head_look_eyes_28
+	}
+
+} // lookatpos_animscripted
+

@@ -1,0 +1,26 @@
+%force_cs_anim_index_match
+
+run_n_gun : blendspace2d( rangex="-180,180", rangey="170,250", blend_time="100",
+coords="{-180,170},{-90,170},{0,170},{90,170},{180,170},{-180,220},{-90,220},{0,220},{90,220},{180,220},{-180,250},{-90,250},{0,250},{92,250},{180,250},{-150,220},{-147,170},{-150,250}",
+edges="{1,2,6},{2,6,7},{2,3,7},{3,7,8},{3,4,8},{4,8,9},{6,7,11},{7,11,12},{7,8,12},{8,12,13},{8,9,13},{9,13,14},{1,6,15},{1,15,16},{5,15,16},{0,5,16},{6,15,17},{10,15,17},{5,10,15},{6,11,17}",
+valuex=[aim_yaw], valuey=[desiredspeed] ) loopsync complete
+{
+	sdr_com_rungun_jog_forward_br
+	sdr_com_rungun_jog_forward_r
+	sdr_com_rungun_jog_forward
+	sdr_com_rungun_jog_forward_l
+	sdr_com_rungun_jog_forward_bl
+	sdr_com_rungun_run_forward_br
+	sdr_com_rungun_run_forward_r
+	sdr_com_rungun_run_forward
+	sdr_com_rungun_run_forward_l
+	sdr_com_rungun_run_forward_bl
+	sdr_com_rungun_run_forward_br@1
+	sdr_com_rungun_run_forward_r@1
+	sdr_com_rungun_run_forward@1
+	sdr_com_rungun_run_forward_l@1
+	sdr_com_rungun_run_forward_bl@1
+	sdr_com_rungun_run_forward_rb
+	sdr_com_rungun_jog_forward_rb
+	sdr_com_rungun_run_forward_rb@1
+}

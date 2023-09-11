@@ -1,0 +1,9 @@
+%force_cs_anim_index_match
+
+generic_human_turn_lean : additive blendspace1d( range="-90,90", blend_time="200", coords="-90,0,90", value=[leanyaw] ) unnormalized
+{
+		sdr_com_strafe_sprint_leanleft
+		sdr_com_strafe_sprint_empty
+		sdr_com_strafe_sprint_leanright
+
+}

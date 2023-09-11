@@ -1,0 +1,10 @@
+%force_cs_anim_index_match
+
+	aimnode : aim_4pt( blendtime=0.2, blendouttime=0.4, aim_yaw=[aim_yaw], aim_pitch=[aim_pitch], aim_yaw_delta=[aim_yaw_delta], aim_active=[aim_active], max_aim_delta="200", max_yaw="60", animclass=[animclass], animstate=[animstate], animentry=[animentry] ) fullrestart unnormalized
+	{
+		#aim_2
+		#aim_4
+		#aim_6
+		#aim_8
+		#aim_5
+	}
